@@ -28,26 +28,26 @@ Este projeto é uma aplicação de CRUD (Create, Read, Update, Delete) para gere
 ```bash
 git clone https://github.com/robzenhu/crud-laravel.git
 cd crud-laravel 
-
+```
 ### 2. Instalar as Dependências
 ```bash
 composer install
-
+```
 ### 3. Configurar o Ambiente
 - **Copie o arquivo .env.example para .env e configure as variáveis de ambiente:
 ```bash
 cp .env.example .env
-
+```
 ###  4. Gerar a Chave de Aplicação
 ```bash
 php artisan key:generate
-
+```
 
 ### 5. Executar as Migrations
 ```bash
 php artisan migrate
 
-
+```
 ### 6. Iniciar o Servidor
 ```bash
 php artisan serve
